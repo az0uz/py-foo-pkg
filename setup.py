@@ -14,8 +14,9 @@ dependency_links=[
 
 setup(
     name="py-foo-pkg",
-    version="0.1.1",
+    version="0.1.2",
     python_requires=">=3.6",
     install_requires=install_requires,
     setup_requires=setup_requires,
+    dependency_links=dependency_links,
     packages=find_packages())
